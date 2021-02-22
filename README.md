@@ -10,8 +10,8 @@ and eventually pokemon masters.
 ## Selection of Data
 
 This project consists of the Pokemon.csv data set which includes **13 features**, with **800 samples**. The data set consists of columns pertaining to the 
-Pokemon's statistics such as: Type, HP, Attack, Defense, etc. Some of the features that will be used as predictors are: 'HP', 'Attack', 'Defense', 
-'Sp. Atk', 'Sp. Def'. 
+Pokemon's statistics such as: Type, HP, Attack, Defense, etc. Some of the features that will be used as predictors are: _HP_, _Attack_, _Defense_, 
+_Sp. Atk_, _Sp. Def_. 
 
 After getting an idea of the data that we were working with, we decided to drop **Total** and **Type 2** as those features would not be needed 
 in order to make our predictions. After dropping some features, the data that was left behind contained **3 categorical features**: _Name_, _Type 1_, and _Generation and **7 numerical features**: 
