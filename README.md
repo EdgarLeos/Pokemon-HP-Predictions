@@ -2,10 +2,9 @@
 
 ## Introduction
 For our project, we worked on a Pokemon dataset that includes the type of Pokemon and their statistics. The objective of this 
-project is to predict the Pokemon's **HP** based off of the given information. This project might be a bit challenging 
+project is to predict the Pokemon's HP based off of the given information. This project might be a bit challenging 
 but definitely worth the struggle as we will be discovering new ways to identify a Pokemon's HP based on essential information. This project allows us 
-to relive our childhood. If we are able to predict the Pokemon's HP based on the Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation we essentually become better "pokemon trainers" 
-and eventually pokemon masters.
+to relive our childhood. If we are able to predict the Pokemon's HP based on the Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation we essentually become better "pokemon trainers" and eventually pokemon masters.
 
 ## Selection of Data
 
@@ -26,7 +25,11 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 - Anaconda for Juypter Notebook (Converting visuals to PDF with better formatting)
 - Google Colaboratory as IDE
 
+** Inference Methods used with Scikit**
+- Models: KNeighborsClassifier, KNeighborsRegressor, LinearRegression, and PolynomialFeatures
+
 ## Results:
+
 
 ## Discussion
 
