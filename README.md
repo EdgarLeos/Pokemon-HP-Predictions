@@ -25,7 +25,7 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 - Anaconda for Juypter Notebook (Converting visuals to PDF with better formatting)
 - Google Colaboratory as IDE
 
-** Inference Methods used with Scikit**
+**Inference Methods used with Scikit**
 - Models: KNeighborsClassifier, KNeighborsRegressor, LinearRegression, and PolynomialFeatures
 
 ## Results:
