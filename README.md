@@ -14,7 +14,7 @@ Pokemon's statistics such as: Type, HP, Attack, Defense, etc. Some of the featur
 _Sp. Atk_, _Sp. Def_. 
 
 After getting an idea of the data that we were working with, we decided to drop **Total** and **Type 2** as those features would not be needed 
-in order to make our predictions. After dropping some features, the data that was left behind contained **3 categorical features**: _Name_, _Type 1_, and _Generation and **7 numerical features**: 
+in order to make our predictions. After dropping some features, the data that was left behind contained **3 categorical features**: _Name_, _Type 1_, and _Generation_ and **7 numerical features**: 
 _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 
 ## Methods:
