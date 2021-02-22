@@ -22,7 +22,7 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 
 - Numpy, Pandas, Matplotlib, and Seaborn for data analysis and visualization
 - Scikit-learn for inference
-- Github for code sharing
+- Github for code sharing and storing code
 - Anaconda for Juypter Notebook (Converting visuals to PDF with better formatting)
 - Google Colaboratory as IDE
 
