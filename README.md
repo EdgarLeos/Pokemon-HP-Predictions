@@ -26,7 +26,7 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 - Google Colaboratory as IDE
 
 **Inference Methods used with Scikit**
-- Models: KNeighborsClassifier, KNeighborsRegressor, LinearRegression, and PolynomialFeatures
+- Models: KNeighborsRegressor, LinearRegression, and PolynomialFeatures
 
 ## Results:
 
