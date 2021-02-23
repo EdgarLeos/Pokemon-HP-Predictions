@@ -13,8 +13,8 @@ Pokemon's statistics such as: Type, HP, Attack, Defense, etc. Some of the featur
 _Sp. Atk_, _Sp. Def_. 
 
 After getting an idea of the data that we were working with, we decided to drop **Total** and **Type 2** as those features would not be needed 
-in order to make our predictions. After dropping some features, the data that was left behind contained **3 categorical features**: _Name_, _Type 1_, and _Generation_ and **7 numerical features**: 
-_#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
+in order to make our predictions. After dropping some features, the data that was left behind contained **2 categorical features**: _Name_, and _Type 1_ and **8 numerical features**: 
+_#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, _Speed_, and _Generation_.
 
 ## Methods:
 **Tools:**
@@ -34,7 +34,9 @@ After scaling the data and analyzing the results, we noticed that as the HP went
 
 ## Discussion
 
-After trying various regression algorithms and different models, we found that the best algorithm to use was a mixture of having the model be **KNeighborsRegressor** with the algorithm being **brute** and metric being **manhattan**. When predicting through **LinearRegression** we had **337 out of 800** pokemon not predicted correctly. Once we used the more efficient model and algorithm (KNeighborsRegressor), we were able to obtain a higher percantage of a Pokemon's HP being predicted. The predictions results that we were able to achieve were shocking to see only **9/800** Pokemon were not predicted correctly.
+After trying various regression algorithms and different models, we found that the best algorithm to use was a mixture of having the model be **KNeighborsRegressor** with the algorithm being **brute** and metric being **manhattan**. When predicting through **LinearRegression** we had **337 out of 800** pokemon not predicted correctly. Once we used the more efficient model and algorithm (KNeighborsRegressor), we were able to obtain a higher percantage of a Pokemon's HP being predicted. The predictions results that we were able to achieve were shocking to see only **9 out of 800** Pokemon were not predicted correctly.
 
 ## Summary
+The Pokemon-HP-Predictions project uses a modified regression model based on 8 numerical features: #, HP, Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation. 
 
+After running our predictions, we observed that there was an accuracy of 99.98875% that the Pokemon's HP would be predicted correctly based on the stats of a Pokemon. 
