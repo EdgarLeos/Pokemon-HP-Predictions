@@ -30,7 +30,11 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, and _Speed_.
 
 ## Results:
 
+After scaling the data and analyzing the results, we noticed that as the HP went up, the rest of the stats went up as well except for Defense and Speed. If we stop to think about this analysis, it makes sense because the bigger the pokemon get they usually have more HP and their speed normally goes down. The same thing can be said about the defense of a bigger pokemon compared to a smaller pokemon because a smaller pokemon will have more evasiveness because of their size. 
 
 ## Discussion
 
+After trying various regression algorithms and different models, we found that the best algorithm to use was a mixture of having the model be **KNeighborsRegressor** with the algorithm being **brute** and metric being **manhattan**. When predicting through **LinearRegression** we had **337 out of 800** pokemon not predicted correctly. Once we used the more efficient model and algorithm (KNeighborsRegressor), we were able to obtain a higher percantage of a Pokemon's HP being predicted. The predictions results that we were able to achieve were shocking to see only **9/800** Pokemon were not predicted correctly.
+
 ## Summary
+
