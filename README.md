@@ -39,4 +39,4 @@ After trying various regression algorithms and different models, we found that t
 ## Summary
 The Pokemon-HP-Predictions project uses a modified regression model based on 8 numerical features: #, HP, Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation. 
 
-After running our predictions, we observed that there was an accuracy of 99.98875% that the Pokemon's HP would be predicted correctly based on the stats of a Pokemon. 
+After running our predictions, we observed that there was an accuracy of **99.98875%** that the Pokemon's HP would be predicted correctly based on the stats of a Pokemon. That's a really high percantage being predicted correctly.
