@@ -4,7 +4,7 @@
 For our project, we worked on a Pokemon dataset that includes the type of Pokemon and their statistics. The objective of this 
 project is to predict the Pokemon's HP based off of the given information. This project might be a bit challenging 
 but definitely worth the struggle as we will be discovering new ways to identify a Pokemon's HP based on essential information. This project allows us 
-to relive our childhood. If we are able to predict the Pokemon's HP based on the Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation we essentually become better "pokemon trainers" and eventually pokemon masters.
+to relive our childhood. If we are able to predict the Pokemon's HP based on the Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation we essentually become better "Pokemon trainers" and eventually Pokemon masters.
 
 ## Selection of Data
 
@@ -30,11 +30,11 @@ _#_, _HP_, _Attack_, _Defense_, _Sp. Atk_, _Sp. Def_, _Speed_, and _Generation_.
 
 ## Results:
 
-After scaling the data and analyzing the results, we noticed that as the HP went up, the rest of the stats went up as well except for Defense and Speed. If we stop to think about this analysis, it makes sense because the bigger the pokemon get they usually have more HP and their speed normally goes down. The same thing can be said about the defense of a bigger pokemon compared to a smaller pokemon because a smaller pokemon will have more evasiveness because of their size. 
+After scaling the data and analyzing the results, we noticed that as the HP went up, the rest of the stats went up as well except for Defense and Speed. If we stop to think about this analysis, it makes sense because the bigger the Pokemon get they usually have more HP and their speed normally goes down. The same thing can be said about the defense of a bigger Pokemon compared to a smaller Pokemon because a smaller Pokemon will have more evasiveness because of their size. 
 
 ## Discussion
 
-After trying various regression algorithms and different models, we found that the best algorithm to use was a mixture of having the model be **KNeighborsRegressor** with the algorithm being **brute** and metric being **manhattan**. When predicting through **LinearRegression** we had **337 out of 800** pokemon not predicted correctly. Once we used the more efficient model and algorithm (KNeighborsRegressor), we were able to obtain a higher percantage of a Pokemon's HP being predicted. The predictions results that we were able to achieve were shocking to see only **9 out of 800** Pokemon were not predicted correctly.
+After trying various regression algorithms and different models, we found that the best algorithm to use was a mixture of having the model be **KNeighborsRegressor** with the algorithm being **brute** and metric being **manhattan**. When predicting through **LinearRegression** we had **337 out of 800** Pokemon not predicted correctly. Once we used the more efficient model and algorithm (KNeighborsRegressor), we were able to obtain a higher percantage of a Pokemon's HP being predicted. The predictions results that we were able to achieve were shocking to see only **9 out of 800** Pokemon were not predicted correctly.
 
 ## Summary
 The Pokemon-HP-Predictions project uses a modified regression model based on 8 numerical features: #, HP, Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation. 
