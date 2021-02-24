@@ -2,7 +2,7 @@
 
 ## Introduction
 For our project, we worked on a Pokemon dataset that includes the type of Pokemon and their statistics. The dataframe was found here:
-https://github.com/csrividhya/pokemon-stats/blob/master/Pokemon.csv
+https://github.com/csrividhya/pokemon-stats/blob/master/Pokemon.csv .
 The objective of this project is to predict the Pokemon's HP based off of the given information. This project might be a bit challenging 
 but definitely worth the struggle as we will be discovering new ways to identify a Pokemon's HP based on essential information. This project allows us 
 to relive our childhood. If we are able to predict the Pokemon's HP based on the Attack, Defense, Sp. Atk, Sp. Def, Speed, and Generation we essentually become better "Pokemon trainers" and eventually Pokemon masters.
